@@ -47,7 +47,7 @@ check the params. Write the necessary code, to persist the posted data.
 A complete application should have the following routes, at least:
 
 - `GET /entries`: shows a list of all of the entries (use `entries/index.erb`)
-- `GET /entries/:id`: shows a single entry (can use `index.erb` or a `entries/show.erb`)
+- `GET /entries/:id`: shows a single entry (can use `entries/index.erb` or a `entries/show.erb`)
 - `GET /entries/new`: shows the form for a new entry (use `entries/new.erb`)
 - `POST /entries`: creates a new entry with the POSTed data, and redirects to
   `GET /entries/:id`
